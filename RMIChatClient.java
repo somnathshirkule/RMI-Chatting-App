@@ -7,6 +7,7 @@ import java.awt.*;
 import java.awt.event.*;
 public class RMIChatClient extends JFrame implements ActionListener,ChatClientInterface
 {
+	//Author: Somnath Shirkule
 	Hashtable<String,MiniWindow> ht;
 	Container c;
 	JTextArea jta;

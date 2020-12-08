@@ -9,6 +9,7 @@ public class RMIChatServer extends UnicastRemoteObject implements ChatServerInte
 	String identity="rmi://localhost:1099/chatapp";
 	public RMIChatServer() throws RemoteException
 	{
+		//Author: Somnath Shirkule
 		v=new Vector<ClientInfo>();
 		try
 		{
